@@ -1,0 +1,11 @@
+Uuid: 594a49bb233748f2bc80a9eb18a2e08f
+ExtensionType: 1
+Name: Wsdler
+ScreenVersion: 2.0.12
+SerialVersion: 6
+MinPlatformVersion: 0
+ProOnly: False
+Author: Eric Gruber
+ShortDescription: Parses WSDL files and generates SOAP requests to the enumerated endpoints.
+EntryPoint: target/wsdler-2.0.4-SNAPSHOT.jar
+BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
